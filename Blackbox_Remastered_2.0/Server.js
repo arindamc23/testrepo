@@ -4,7 +4,7 @@ const cors = require('cors');
 const path = require('path');
 require('dotenv').config();
 
-
+ 
 // Definition of routes
 const authRoutes = require('./Routes/AuthRoutes');
 const promotionRoutes = require('./Routes/VerificationRoutes');
