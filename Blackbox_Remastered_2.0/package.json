@@ -1,0 +1,26 @@
+{
+  "name": "blackbox_remastered_2.0",
+  "version": "2.0.0",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node Server.js"
+  },
+  "keywords": [],
+  "author": "Anirban Mondal",
+  "license": "ISC",
+  "description": "Blackbox - A comprehensive user and client management system for handling projects, tasks, attendance, salary, and task sheets. Designed to streamline daily operations, the app supports client onboarding, project tracking, and team task management for efficient collaboration and productivity.",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "imagekit": "^5.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.4",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.16",
+    "sequelize": "^6.37.5"
+  }
+}
